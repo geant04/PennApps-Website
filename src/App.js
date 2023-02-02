@@ -1,59 +1,65 @@
 import './App.css';
 import React from 'react';
-import { useState, useEffect } from 'react';
-import Button from './Button'
+import Navbar from './Navbar'
+import Timer from './Timer'
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Button from 'react-bootstrap/Button';
 
 function App() {
   return (
     <div className="App">
-      <h id="ttl">PennApps XXIII</h>
-      <Timer/>
-      <button>PennApps</button>
-      <button>About</button>
-      <Button as="a" href="https://pennclubs.com/club/pennapps">Apply</Button>
-      <NavBar/>
+      <div className="backgroundcolor">
+        <img id="ttl" src="https://github.com/pennapps/frontend-challenge/blob/main/assets/banner.png?raw=true" alt="PennApps XXIII"/>
+        <div className="cover">
+          <div className='timerbox'>
+            <Timer/>
+          </div>
+          <div id="space"></div>
+        </div>
+        <Navbar/>
+        <div id="apply" className="apply-page">
+          <br id></br>
+          <p className="headerText">Apply bro,</p>
+          <p className="headerText">We be hiring.</p>
+          <p>Filler text. Filler text. Lorem ipsum something i dont really know. i'm not much of a web developer. Anyways, did you know that we're
+              hiring? or something along those lines, please hire me! I am a good worker! look at how hard i'm working for this front-end stuff! i think
+              i'm worthy of a position. personally, you should choose me.
+          </p>
+          <Button variant="success" href="https://pennclubs.com/club/pennapps">APPLY</Button>{' '}
+          <br id></br>
+          <br id></br>
+        </div>
+        <div id="about-us">
+          <h>We're no strangers to love</h><br></br>
+          <h>We're no strangers to love</h><br></br>
+          <h>We're no strangers to love</h><br></br>
+          <h>We're no strangers to love</h><br></br>
+          <h>We're no strangers to love</h><br></br>
+          <h>We're no strangers to love</h><br></br>
+          <h>We're no strangers to love</h><br></br>
+          <h>We're no strangers to love</h><br></br>
+          <h>We're no strangers to love</h><br></br>
+          <h>We're no strangers to love</h><br></br>
+          <h>We're no strangers to love</h><br></br>
+          <h>We're no strangers to love</h><br></br>
+          <h>We're no strangers to love</h><br></br>
+          <h>We're no strangers to love</h><br></br>
+          <h>We're no strangers to love</h><br></br>
+          <h>We're no strangers to love</h><br></br>
+          <h>We're no strangers to love</h><br></br>
+          <h>We're no strangers to love</h><br></br>
+          <h>We're no strangers to love</h><br></br>
+          <h>We're no strangers to love</h><br></br>
+          <h>We're no strangers to love</h><br></br>
+
+        </div>
+        <div className="footer">
+          <img className="logo" src="https://github.com/pennapps/frontend-challenge/blob/main/assets/penn-logo.png?raw=true" alt="penn-logo"/>
+        </div>
+      </div>
+
     </div>
   );
 }
-
-function Timer(){
-  const [days, setDays] = useState(0);
-  const [hours, setHours] = useState(0);
-  const [minutes, setMinutes] = useState(0);
-  const [seconds, setSeconds] = useState(0);
-
-  const deadline = "04 February 2023 20:53:00 EST";
-  const getTime = () => {
-      const time = Date.parse(deadline) - Date.now();
-
-      setDays( Math.max(0, Math.floor(time / (1000 * 60 * 60 * 24))) );
-      setHours( Math.max(0, Math.floor((time / (1000 * 60 * 60)) % 24)) );
-      setMinutes( Math.max(0, Math.floor((time / 1000 / 60) % 60))) ;
-      setSeconds( Math.max(0, Math.floor((time / 1000) % 60)) );
-  }
-
-  const divStyle = {
-    fontSize: '245%',
-    margin: '10px',
-  };
-
-  useEffect(() => {
-    const interval = setInterval(() => getTime(deadline), 1000);
-
-    return () => clearInterval(interval);
-  }, []);
-
-  return (
-    <div classname = "timer" style={divStyle}>
-      <p>{days}:{hours}:{minutes}:{seconds}</p>
-    </div>
-  )
-}
-
-function NavBar(){
-
-}
-
-
 
 export default App;

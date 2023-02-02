@@ -1,9 +1,74 @@
 #ttl{
-  font-size: 100px;
+  margin-top: 10%;
+  top: 10%;
+  font-size: 80px;
+  width:60%;
+}
+#space{
+  margin-top: 30%;
+}
+
+.logo{
+  margin-top: 17.3%;
+  margin-left: 77.6%;
+}
+.text{
+  font-size: 15px;
+}
+.ntext{
+  color:#4caf50;
+}
+
+.backgroundcolor{
+  background-color:rgb(255, 250, 234);
+}
+
+.t{
+  display: flex;
+  justify-content: space-between;
+}
+
+.box {
+  background-color: rgb(255, 255, 255);
+  width: 120px;
+  height: 100%;
+  border-radius:30px;
+}
+
+.box p {
+  font-size: 30px;
 }
 
 .App {
   text-align: center;
+}
+
+.apply-page{
+  background-color:rgb(255, 245, 214);
+  text-align:left;
+  padding-left: 30%;
+  padding-right: 20%;
+}
+
+.headerText{
+  font-weight: 40px; 
+  font-size: 50px;
+  color:#1f4220;
+}
+
+.cover {
+  margin-top: 7%;
+  width:100%;
+  height:100%;
+  background-image: url('https://github.com/pennapps/frontend-challenge/blob/main/assets/landing-background.png?raw=true');
+  background-size: cover;
+}
+
+.footer{
+  width:100%;
+  background-image: url('https://github.com/pennapps/frontend-challenge/blob/main/assets/footer-background.png?raw=true');
+  height:400px;
+  background-size: cover;
 }
 
 .App-logo {
@@ -17,37 +82,25 @@
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
 .button {
   background-color: #4caf50;
   border: none;
   color: white;
-  padding: 15px 32px;
+  padding: 20px 20px;
+  margin-top: 4px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
 }
+
+.timerbox {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center;
+}
+
+
+
