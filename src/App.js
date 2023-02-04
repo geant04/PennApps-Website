@@ -12,13 +12,13 @@ function App() {
         <img id="ttl" src="https://github.com/pennapps/frontend-challenge/blob/main/assets/banner.png?raw=true" alt="PennApps XXIII"/>
         <div className="cover">
           <div className='timerbox'>
-            <Timer/>
+            <Timer/>        
+            <div id="space"></div>
           </div>
-          <div id="space"></div>
         </div>
         <Navbar/>
         <div id="apply" className="apply-page">
-          <br id></br>
+          <br></br>
           <p className="headerText">Apply bro,</p>
           <p className="headerText">We be hiring.</p>
           <p>Filler text. Filler text. Lorem ipsum something i dont really know. i'm not much of a web developer. Anyways, did you know that we're
@@ -30,27 +30,7 @@ function App() {
           <br id></br>
         </div>
         <div id="about-us">
-          <h>We're no strangers to love</h><br></br>
-          <h>We're no strangers to love</h><br></br>
-          <h>We're no strangers to love</h><br></br>
-          <h>We're no strangers to love</h><br></br>
-          <h>We're no strangers to love</h><br></br>
-          <h>We're no strangers to love</h><br></br>
-          <h>We're no strangers to love</h><br></br>
-          <h>We're no strangers to love</h><br></br>
-          <h>We're no strangers to love</h><br></br>
-          <h>We're no strangers to love</h><br></br>
-          <h>We're no strangers to love</h><br></br>
-          <h>We're no strangers to love</h><br></br>
-          <h>We're no strangers to love</h><br></br>
-          <h>We're no strangers to love</h><br></br>
-          <h>We're no strangers to love</h><br></br>
-          <h>We're no strangers to love</h><br></br>
-          <h>We're no strangers to love</h><br></br>
-          <h>We're no strangers to love</h><br></br>
-          <h>We're no strangers to love</h><br></br>
-          <h>We're no strangers to love</h><br></br>
-          <h>We're no strangers to love</h><br></br>
+          <p></p>
 
         </div>
         <div className="footer">

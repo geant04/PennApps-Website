@@ -5,7 +5,7 @@
   width:60%;
 }
 #space{
-  margin-top: 30%;
+  margin-top: 40%;
 }
 
 .logo{
@@ -13,7 +13,9 @@
   margin-left: 77.6%;
 }
 .text{
-  font-size: 15px;
+  font-size: 20px;
+  font-weight: bold;
+  color:#439e6c
 }
 .ntext{
   color:#4caf50;
@@ -25,18 +27,30 @@
 
 .t{
   display: flex;
+  text-align: justify;
+  width: 40%;
+  height: 160px;
   justify-content: space-between;
 }
 
 .box {
   background-color: rgb(255, 255, 255);
-  width: 120px;
-  height: 100%;
-  border-radius:30px;
+  width: 160px;
+  text-align: center;
+  line-height: 30px;
 }
 
 .box p {
-  font-size: 30px;
+  top: 30%;
+  position: relative;
+  font-size: 60px;
+  font-weight: bold;
+  color:rgb(14, 53, 0)
+}
+
+.box span{
+  top: 30%;
+  position: relative;
 }
 
 .App {
@@ -45,12 +59,13 @@
 
 .apply-page{
   background-color:rgb(255, 245, 214);
-  text-align:left;
+  text-align:justify;
   padding-left: 30%;
   padding-right: 20%;
 }
 
 .headerText{
+  line-height: 40px;
   font-weight: 40px; 
   font-size: 50px;
   color:#1f4220;
