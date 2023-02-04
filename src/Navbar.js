@@ -14,7 +14,6 @@ function ColorSchemesExample() {
           </Nav>
         </Container>
       </Navbar>
-      <br />
     </>
   );
 }
