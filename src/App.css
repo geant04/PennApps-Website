@@ -13,12 +13,13 @@
   position: relative;
   top: 70%;
   left: 39.6%;
-  width: 18%;
+  height: auto;
+  width: 20%;
 }
 
 .text{
   text-size-adjust: auto;
-  font-size: 110%;
+  font-size: 1.3vw;
   font-weight: bold;
   color:#439e6c
 }
@@ -32,12 +33,12 @@
 }
 
 .t{
-  position: relative;
-  top: 37%;
+  position: absolute;
+  top: -10%;
   display: flex;
   text-align: justify;
-  width: 40%;
-  height: 160px;
+  width: 45%;
+  height: 27.5%;
   justify-content: space-between;
 }
 
@@ -45,21 +46,21 @@
   background-color: rgb(255, 255, 255);
   width: 24%;
   text-align: center;
-  line-height: 30px;
+  line-height: 2.6vw;
 }
 
 .box p {
-  top: 30%;
+  top: 33%;
   position: relative;
-  font-size: 350%;
+  font-size: 4vw;
   font-weight: bold;
   text-size-adjust: auto;
   color:rgb(14, 53, 0)
 }
 
 .box span{
-  top: 30%;
   position: relative;
+  top: 30%;
 }
 
 .App {
@@ -102,6 +103,7 @@
 }
 
 .cover {
+  position:relative;
   margin-top: 12%;
   width:100%;
   height:100%;
