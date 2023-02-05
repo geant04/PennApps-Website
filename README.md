@@ -1,6 +1,8 @@
 # PennApps-Website
 This is my submission for the PennApps front-end challenge!
 
+![yayay](preview.png)
+
 For this challenge, I primarily used React, JavaScript, and CSS, along with React Bootstrap for my nav bar. I thought that using React was very appropriate for the challenge because PennApps uses Gatsby, which is based on that, and also because it's something I've never learned before that's a very helpful skill for front-end app development!
 
 The image assets use links that are pulled from the front-end github asset folder.
