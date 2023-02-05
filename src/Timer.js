@@ -6,7 +6,7 @@ function Timer(){
     const [minutes, setMinutes] = useState(0);
     const [seconds, setSeconds] = useState(0);
   
-    const deadline = "04 February 2023 20:53:00 EST";
+    const deadline = "05 February 2023 17:35:00 EST";
     const getTime = () => {
         const time = Date.parse(deadline) - Date.now();
   
@@ -25,19 +25,19 @@ function Timer(){
     return (
       <div className="t">
             <div className="box">
-                <p className="day">{days}</p>
+                <p>{days}</p>
                 <span className="text">DAYS</span>
             </div>
             <div className="box">
-                <p className="hour">{hours}</p>
+                <p>{hours}</p>
                 <span className="text">HOURS</span>
             </div>
             <div className="box">
-                <p className="minute">{minutes}</p>
+                <p>{minutes}</p>
                 <span className="text">MINUTES</span>
             </div>
             <div className="box">
-                <p className="second">{seconds}</p>
+                <p>{seconds}</p>
                 <span className="text">SECONDS</span>
             </div>
       </div>

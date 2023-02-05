@@ -9,11 +9,14 @@
 }
 
 .logo{
-  margin-top: 21.3%;
-  margin-left: 80.6%;
+  position: relative;
+  top: 70%;
+  left: 39.6%;
+  width: 18%;
 }
 .text{
-  font-size: 20px;
+  text-size-adjust: auto;
+  font-size: 110%;
   font-weight: bold;
   color:#439e6c
 }
@@ -26,7 +29,7 @@
 }
 
 .t{
-  position: absolute;
+  position: relative;
   top: 37%;
   display: flex;
   text-align: justify;
@@ -37,7 +40,7 @@
 
 .box {
   background-color: rgb(255, 255, 255);
-  width: 160px;
+  width: 24%;
   text-align: center;
   line-height: 30px;
 }
@@ -45,8 +48,9 @@
 .box p {
   top: 30%;
   position: relative;
-  font-size: 60px;
+  font-size: 350%;
   font-weight: bold;
+  text-size-adjust: auto;
   color:rgb(14, 53, 0)
 }
 
