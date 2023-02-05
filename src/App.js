@@ -7,8 +7,11 @@ import Button from 'react-bootstrap/Button';
 
 function App() {
   return (
+
     <div className="App">
+
       <div className="backgroundcolor">
+
         <img id="ttl" src="https://github.com/pennapps/frontend-challenge/blob/main/assets/banner.png?raw=true" alt="PennApps XXIII"/>
         <div className="cover">
           <div className='timerbox'>
@@ -16,7 +19,9 @@ function App() {
             <div id="space"></div>
           </div>
         </div>
+
         <Navbar/>
+
         <div id="apply" className="apply-page">
           <br></br>
           <p className="headerText">Beleaf it or not,</p>
@@ -28,6 +33,7 @@ function App() {
           <br id></br>
           <br id></br>
         </div>
+
         <div id="about-us" className="about-us">
           <h1>About</h1>
           <br></br>
@@ -42,6 +48,7 @@ function App() {
             many times the most important aspect of a hackathon is the community it generates and skills that inexperienced
             hackers walk away with.
           </p>
+
           <h2>The PennApps Difference</h2>
           <p>Founded in the fall of 2009, PennApps was the nation's first student-run college hackathon. Since then, it 
             has spurred a revolution in the way engineering students develop and showcase their skills, spawning
@@ -61,7 +68,6 @@ function App() {
 
           <h2>The Application Process</h2>
           <br></br>
-
           <p>Thousands of qualified candidates apply to participate in PennApps every year, however our space can only support a limited number of
             participants and as much as we'd like to take everyone, it just isn't possible. We think that the fairest way to decide who we invite 
             is by asking everyone to tell us a little bit about themselves, so that we can invite people who have demonstrated interest and skill. 
@@ -72,12 +78,15 @@ function App() {
             tell us about why you want to be at PennApps, and we'll do our best to get you here! Applications are currently open.
           </p>
         </div>
+
         <div className="footer">
           <img className="logo" src="https://github.com/pennapps/frontend-challenge/blob/main/assets/penn-logo.png?raw=true" alt="penn-logo"/>
         </div>
+
       </div>
 
     </div>
+    
   );
 }
 

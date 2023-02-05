@@ -4,6 +4,7 @@
   font-size: 80px;
   width:60%;
 }
+
 #space{
   margin-top: 40%;
 }
@@ -14,12 +15,14 @@
   left: 39.6%;
   width: 18%;
 }
+
 .text{
   text-size-adjust: auto;
   font-size: 110%;
   font-weight: bold;
   color:#439e6c
 }
+
 .ntext{
   color:#4caf50;
 }
